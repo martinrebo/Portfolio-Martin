@@ -66,6 +66,9 @@ nav {
   border-width: 10px;
   border-color: white !important; }
 
+#work a {
+  color: black; }
+
 #work .thumbnail {
   background-color: white;
   margin: 10px;
@@ -163,7 +166,8 @@ nav {
   border-color: black;
   border-width: 1px;
   border-radius: 5%;
-  padding: 15px; }
+  padding: 15px;
+  background-color: white; }
 
 .responsive img {
   height: 20vh;
@@ -224,7 +228,7 @@ nav {
 
 #services .thumbnail {
   padding: 10px;
-  background-color: #e6e6e6;
+  /*background-color: rgba(230,230,230,1);*/
   border: solid;
   border-color: black;
   border-width: 1px; }
