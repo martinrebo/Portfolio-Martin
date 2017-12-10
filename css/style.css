@@ -37,6 +37,9 @@ nav {
 #purple-nav {
   color: mediumpurple; }
 
+#black-nav {
+  color: white; }
+
 #about h1 {
   color: white;
   text-align: center;
@@ -243,6 +246,38 @@ nav {
 #services a:hover {
   background-color: white;
   color: black; }
+
+/* -- BLOG -- */
+.blog-border {
+  border: solid;
+  border-color: black;
+  border-width: 50px 20px 10px 20px;
+  padding: 20px;
+  border-radius: 30px; }
+
+#blog button {
+  color: white;
+  background-color: black;
+  padding: 10px 30px; }
+
+#blog button:hover {
+  color: black !important;
+  background-color: white; }
+
+#blog a {
+  text-decoration: none;
+  color: black; }
+
+#blog article:hover {
+  border-color: black;
+  border: solid;
+  border-width: 5px; }
+
+#blog-white {
+  color: white !important; }
+
+#blog-white:hover {
+  color: black !important; }
 
 /* --------- CONTACT ------ */
 .contact-border {

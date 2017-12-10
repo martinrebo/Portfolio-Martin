@@ -59,6 +59,10 @@ nav {
     color: $purple;
 }
 
+#black-nav {
+    color: white;
+}
+
 //* --------------- HEADER ------------ //
 #about h1 {
     color: white;
@@ -321,8 +325,48 @@ border-color: white !important;
     color: black
 }
 
+/* -- BLOG -- */
+.blog-border {
+    border: solid;
+    border-color: $black;
+    border-width: 50px 20px 10px 20px;
+    padding: 20px;
+    border-radius: 30px;
+    
+} 
 
 
+
+
+#blog {
+    button {
+        color: white;
+        background-color: $black;
+        padding: 10px 30px;
+    }
+    button:hover {
+        color: black !important ;
+        background-color: white;
+    }
+    a {
+        text-decoration: none;
+        color: $black;
+        
+    }
+    article:hover {
+        border-color: $black;
+        border:solid;
+        border-width: 5px;
+        
+        
+    }
+}
+#blog-white {
+    color: white !important;
+}
+#blog-white:hover {
+    color: $black !important;
+}
 
 /* --------- CONTACT ------ */
 
