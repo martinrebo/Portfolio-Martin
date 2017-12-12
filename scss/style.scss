@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Frijole');
 
 
 //* ------------ Palette of colours -------* //
@@ -15,6 +16,16 @@ $black: black;
 body {
     position: relative;
     font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Frijole', cursive;
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
 }
 
 p , ul, caption {
@@ -69,11 +80,14 @@ nav {
     text-align: center;
     margin-top: 15vh;
     font-size: 2.5em;
+    font-family: 'Sigmar One', cursive;
+    padding: 10px;
 }
 
 #about h1:hover {
     color: $blue;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 3em;
     font-weight: bolder;
     content: "Hello";
 }
@@ -353,12 +367,14 @@ border-color: white !important;
         color: $black;
         
     }
+    article {
+        margin: auto;
+        padding: 10px;
+    }
     article:hover {
         border-color: $black;
         border:solid;
         border-width: 5px;
-        
-        
     }
 }
 #blog-white {
@@ -403,6 +419,8 @@ border-color: white !important;
     color: mediumpurple;
     width: 50%;
     margin: auto;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
 }
 
 /* ----- footer  --- */
