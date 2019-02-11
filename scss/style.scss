@@ -32,6 +32,10 @@ p , ul, caption {
     font-size: 1.2em;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* ----- NaV ----- */
 nav {
     background-color: rgba(0,0,0,0.4) !important;
@@ -111,6 +115,124 @@ nav {
 }
 
 
+// ----------------- ODIGEO ---------------- // 
+
+#odigeo-container {
+    text-align: center; 
+}
+
+#odigeo-container .col-md-3 {
+border: solid;
+border-width:5px;
+border-color: white !important;
+ 
+}
+#odigeo-container a {
+    color: black;
+}
+
+
+
+#odigeo-container .thumbnail {
+    background-color: white;
+    // margin: 10px;
+    // padding: 10px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    
+}
+
+#odigeo {
+    background-color: #09c;
+    padding-top: 30px;
+     border-radius: 30px;   
+}
+.odilogo {
+    max-width: 50% !important;
+}
+
+/* edreams pod */ 
+#edreams {
+    background-color: #039;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+#edreams button {
+    background-color: #039;
+    color: white;
+    padding: 10px 30px;
+}
+ #edreams button:hover {
+    background-color: white;
+    color: #039;
+    font-weight: bold;
+}
+
+/* opodo pod */
+
+ 
+#travellink {
+    background-color: #f60;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+#travellink button {
+    background-color: #f60;
+    color: white;
+    padding: 10px 30px;
+}
+ #travellink button:hover {
+    background-color: white;
+    color: #f60;
+    font-weight: bold;
+}
+
+
+/* govoyages pod */
+#govoyages {
+    background-color: rgb(165, 205, 56);
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+#govoyages button {
+    background-color: rgb(165, 205, 56);
+    color: white;
+    padding: 10px 30px;
+}
+ #govoyages button:hover {
+    background-color: white;
+    color: rgb(165, 205, 56);
+    font-weight: bold;
+}
+
+/* travellink */
+
+ 
+#opodo {
+    background-color: #f60;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+#opodo button {
+    background-color: #f60;
+    color: white;
+    padding: 10px 30px;
+}
+ #opodo button:hover {
+    background-color: white;
+    color: #f60;
+    font-weight: bold;
+}
+
+
+
+
+
 // ----------------- WORK ---------------- // 
 
 #work {
@@ -138,6 +260,16 @@ border-color: white !important;
     border-width: 1px;
     
 }
+
+#odigeo {
+    background-color: #09c;
+    padding-top: 30px;
+     border-radius: 30px;   
+}
+.odilogo {
+    max-width: 50%;
+}
+
 
 #aguafy {
     background-color: #09c;
@@ -370,11 +502,10 @@ border-color: white !important;
     article {
         margin: auto;
         padding: 10px;
+        border: 5px solid grey;
     }
     article:hover {
-        border-color: $black;
-        border:solid;
-        border-width: 5px;
+        border-color: black;
     }
 }
 #blog-white {
@@ -421,6 +552,13 @@ border-color: white !important;
     margin: auto;
     margin-bottom: 1.5em;
     margin-top: 1.5em;
+}
+
+#download-CV:hover {
+    color: white;
+    background-color: mediumpurple;
+    text-decoration: none;
+
 }
 
 /* ----- footer  --- */
